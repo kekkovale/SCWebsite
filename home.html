@@ -1,11 +1,37 @@
-<html>
+<!doctype html>
+
+<html lang="en">
 <head>
-<title>
-A Simple HTML Document
-</title>
+  <meta charset="utf-8">
+
+  <title>The SCWebsite</title>
+  <meta name="description" content="The events">
+  <meta name="author" content="kv">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
 </head>
+
 <body>
-<p>This is a very simple HTML document</p>
-<p>It only has two paragraphs</p>
+
+    <div id="topBar">This is the top bar</div>
+    <img id="mainImage" src="images/IMG_0121.jpeg"></img>
+
+    <div id="slideCategories">
+        <div class="catSlide position1" id="position1">
+            <h1>box 1</h1>
+        </div>
+        <div class="catSlide position2" id="position2">
+            <h1>box 2</h1>
+        </div>
+        <div class="catSlide position3" id="position3">
+            <h1>box 3</h1>
+        </div>
+
+        <button class="button display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="button display-right" onclick="plusDivs(+1)">&#10095;</button>
+    </div>
+
+    <script src="js/scripts.js"></script>
 </body>
 </html>

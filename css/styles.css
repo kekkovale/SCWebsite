@@ -1,0 +1,50 @@
+    /* main components */
+    html {
+        margin: 0;
+        padding: 0;
+    }
+    body { 
+        font: 75% georgia, sans-serif;
+        line-height: 1.88889;
+        color: #555753; 
+        background: #fff no-repeat bottom right; 
+        margin: 0; 
+        padding: 0;
+    }
+
+    /* IDs */
+    #topBar{
+        height: 60px;
+        width: 100%;
+    }
+
+    #mainImage {
+        width: 100%;
+        height: 100%;
+    }
+
+    #slideCategories {
+        position: relative;
+        width: 100%;
+    }
+
+
+
+    /* Classes */
+    .catSlide{
+        height: 600px;
+        width: 300px;
+        position: absolute;
+        left: 50%;
+        background-color: black;
+    }
+
+    .position1 {
+        transform: translateX(-170px) scale(1);
+    }
+    .position2 {
+        transform: translateX(190px) scale(.8);
+    }
+    .position3 {
+        transform: translateX(-530px) scale(.8);
+    }
